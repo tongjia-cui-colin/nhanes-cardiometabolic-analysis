@@ -19,10 +19,10 @@ library(biotools)
 # ======================================================
 # 2. Data Loading and Transformation
 # ======================================================
-demo  <- read_xpt("C:/Users/ctjia/Downloads/DEMO_L.xpt")
-bmx   <- read_xpt("C:/Users/ctjia/Downloads/BMX_L.xpt")
-bpxo  <- read_xpt("C:/Users/ctjia/Downloads/BPXO_L.xpt")
-tchol <- read_xpt("C:/Users/ctjia/Downloads/TCHOL_L.xpt")
+demo  <- read_xpt("data/DEMO_L.xpt")
+bmx   <- read_xpt("data/BMX_L.xpt")
+bpxo  <- read_xpt("data/BPXO_L.xpt")
+tchol <- read_xpt("data/TCHOL_L.xpt")
 
 nhanes <- demo %>%
   left_join(bmx,   by = "SEQN") %>%
