@@ -1,5 +1,5 @@
 # Multivariate Analysis of Cardiometabolic Health Across Demographic and Socioeconomic Groups
-* Last Updated: October 2026*
+*Last Updated: October 2026*
 
 ## Overview
 This project examines patterns of cardiometabolic health among U.S. adults using NHANES 2021–2023 data. The analysis evaluates whether BMI, waist circumference, systolic blood pressure, diastolic blood pressure, and total cholesterol jointly differ across sex, age, income, and education groups.
